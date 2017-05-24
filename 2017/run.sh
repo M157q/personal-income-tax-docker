@@ -5,6 +5,7 @@ sudo /etc/init.d/pcscd stop
 
 # Ensure user can connect to X server on localhost
 xhost +localhost
+xhost +local:
 
 # Individual Income Tax
 docker run -ti --rm \
