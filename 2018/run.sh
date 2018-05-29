@@ -8,7 +8,7 @@ sudo /etc/init.d/pcscd stop
 sudo killall scdaemon
 
 # Ensure user can connect to X server on localhost
-xhost +localhost
+xhost +
 
 # Individual Income Tax
 docker run -ti --rm \
